@@ -79,4 +79,25 @@ grep -e 'MS' -e 'MO' -e 'ME' -e 'PD' lob.dat - to filter multiple data
    sed 'x,yd' sedcommand.txt
    
  
+ awk command :
+ Print all lines, print matching patterns
+ NF -last line
+ NR - each record
+ 
+ cut 
+ cut -b
+ cut -c
+ cut -d " " -f 1 | grep |sort
+ 
+ sort command 
+ sort -o filename1 filename2
+ sort -u -remove duplicates and sort
+ sort -n - sort by bytes
+ sort -nr - desc sort
+ sort -r -desc sort
+ sort -M - month sort
+ 
+ diff - acd
+ cmp - cmp bytes and say the difference
+ comm - compare line by line and show the difference,
  
