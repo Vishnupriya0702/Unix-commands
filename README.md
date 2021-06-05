@@ -104,3 +104,6 @@ grep -e 'MS' -e 'MO' -e 'ME' -e 'PD' lob.dat - to filter multiple data
 find command:
 Find command is used to search in all directories 
 find directory name -type f -r -name filename -exec grep grepcommand
+
+scp, rsync
+rsync command check for the files and moves it
