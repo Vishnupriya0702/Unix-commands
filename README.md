@@ -101,3 +101,6 @@ grep -e 'MS' -e 'MO' -e 'ME' -e 'PD' lob.dat - to filter multiple data
  cmp - cmp bytes and say the difference
  comm - compare line by line and show the difference,
  
+find command:
+Find command is used to search in all directories 
+find directory name -type f -r -name filename -exec grep grepcommand
